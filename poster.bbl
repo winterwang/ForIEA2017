@@ -16,29 +16,5 @@
   {}
 \endgroup
 
-\sortlist[entry]{nyt/global/}
-  \entry{R-bdp}{manual}{}
-    \name{author}{1}{}{%
-      {{hash=ZP}{%
-         family={Zhao},
-         familyi={Z\bibinitperiod},
-         given={Peng},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ZP1}
-    \strng{fullhash}{ZP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2017}
-    \field{sortinit}{Z}
-    \field{sortinithash}{Z}
-    \field{title}{R bookdownplus: Enhancement of bookdown for writing varied
-  types of books and documents}
-    \verb{url}
-    \verb http://bookdown.org/baydap/bookdown-plus
-    \endverb
-    \field{year}{2017}
-  \endentry
-\endsortlist
+\sortlist[entry]{nyt/global/}\endsortlist
 \endinput

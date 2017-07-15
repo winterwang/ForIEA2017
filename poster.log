@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.7.2)  15 JUL 2017 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.7.2)  15 JUL 2017 22:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -759,13 +759,13 @@ Package beamerposter Info: finished size input check. on input line 129.
 Package beamerposter Info: custom poster width=100 on input line 129.
 Package beamerposter Info: custom poster height=100 on input line 129.
 Package beamerposter Info: custom poster width=90 on input line 129.
-Package beamerposter Info: custom poster height=140 on input line 129.
+Package beamerposter Info: custom poster height=145 on input line 129.
 Package beamerposter Info: myfontscale=1.2 on input line 129.
  ( FP-UPN
 ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-SUB ) ) ( FP-UPN ( FP-SUB ) )
-Package beamerposter Info: paperwidth=2560.74802pt, paperheight=3983.38582pt on
- input line 172.
-Package beamerposter Info: textwidth=2532.29527pt, textwidth=3954.93306pt on in
+Package beamerposter Info: paperwidth=2560.74802pt, paperheight=4125.6496pt on 
+input line 172.
+Package beamerposter Info: textwidth=2532.29527pt, textwidth=4097.19684pt on in
 put line 173.
 Package beamerposter Info: fontscale=1.0, myfontscale=1.20 on input line 174.
  ( FP-UPN
@@ -2182,11 +2182,11 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
 * h-part:(L,W,R)=(28.45274pt, 2503.84253pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 3983.38582pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 4125.6496pt, 0.0pt)
 * \paperwidth=2560.74802pt
-* \paperheight=3983.38582pt
+* \paperheight=4125.6496pt
 * \textwidth=2503.84253pt
-* \textheight=3954.93309pt
+* \textheight=4097.19687pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -2635,7 +2635,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2643,14 +2643,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2658,14 +2658,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2673,14 +2673,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2688,14 +2688,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2703,26 +2703,26 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2730,14 +2730,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2745,14 +2745,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2760,14 +2760,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2775,14 +2775,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2790,16 +2790,16 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <43> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2807,14 +2807,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2822,14 +2822,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2837,14 +2837,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2852,14 +2852,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2867,14 +2867,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2882,14 +2882,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2897,14 +2897,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2912,14 +2912,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2927,14 +2927,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2942,14 +2942,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2957,14 +2957,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2972,14 +2972,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2987,14 +2987,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3002,14 +3002,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3017,49 +3017,49 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
-LaTeX Font Info:    Calculating math sizes for size <43> on input line 375.
+LaTeX Font Info:    Calculating math sizes for size <43> on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <43> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <31.82024> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <25.80026> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <43> not available
-(Font)              size <24.88> substituted on input line 375.
+(Font)              size <24.88> substituted on input line 406.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <31.82024> not available
-(Font)              size <24.88> substituted on input line 375.
+(Font)              size <24.88> substituted on input line 406.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <25.80026> not available
-(Font)              size <24.88> substituted on input line 375.
+(Font)              size <24.88> substituted on input line 406.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <43> not available
-(Font)              size <24.88> substituted on input line 375.
+(Font)              size <24.88> substituted on input line 406.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <31.82024> not available
-(Font)              size <24.88> substituted on input line 375.
+(Font)              size <24.88> substituted on input line 406.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <25.80026> not available
-(Font)              size <24.88> substituted on input line 375.
+(Font)              size <24.88> substituted on input line 406.
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <31.82024> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <25.80026> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3067,14 +3067,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3082,14 +3082,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3097,14 +3097,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3112,14 +3112,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3127,14 +3127,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3142,14 +3142,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3157,14 +3157,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3172,14 +3172,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3187,14 +3187,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3202,14 +3202,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3217,14 +3217,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3232,14 +3232,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3247,14 +3247,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3262,14 +3262,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3277,14 +3277,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3292,14 +3292,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3307,14 +3307,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3322,14 +3322,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3337,14 +3337,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3352,14 +3352,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3367,14 +3367,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3382,14 +3382,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3397,14 +3397,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3412,14 +3412,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3427,14 +3427,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3442,14 +3442,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3457,14 +3457,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3472,14 +3472,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3487,14 +3487,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3502,14 +3502,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3517,14 +3517,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3532,14 +3532,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3547,14 +3547,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3562,14 +3562,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3577,7 +3577,7 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -3589,7 +3589,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.375 \end{frame}
+l.406 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3598,43 +3598,43 @@ or  <return>  to continue without it.
 <images/Figure_1.png, id=20, 772.0845pt x 832.3095pt>
 File: images/Figure_1.png Graphic file (type png)
 <use images/Figure_1.png>
-Package pdftex.def Info: images/Figure_1.png  used on input line 375. on input 
-line 375.
+Package pdftex.def Info: images/Figure_1.png  used on input line 406. on input 
+line 406.
 Package pdftex.def Info: Requested size: 772.08263pt x 832.30746pt on input lin
-e 375.
-LaTeX Font Info:    Calculating math sizes for size <24.89> on input line 375.
+e 406.
+LaTeX Font Info:    Calculating math sizes for size <24.89> on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.89> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18.41873> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.93414> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <18.41873> not available
-(Font)              size <17.28> substituted on input line 375.
+(Font)              size <17.28> substituted on input line 406.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <14.93414> not available
-(Font)              size <14.4> substituted on input line 375.
+(Font)              size <14.4> substituted on input line 406.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <18.41873> not available
-(Font)              size <17.28> substituted on input line 375.
+(Font)              size <17.28> substituted on input line 406.
 
 
 LaTeX Font Warning: Font shape `OML/eur/m/n' in size <14.93414> not available
-(Font)              size <14.4> substituted on input line 375.
+(Font)              size <14.4> substituted on input line 406.
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.89> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <18.41873> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.93414> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3642,14 +3642,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3657,14 +3657,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3672,14 +3672,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3687,14 +3687,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3702,14 +3702,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3717,14 +3717,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3732,14 +3732,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3747,14 +3747,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3762,14 +3762,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3777,14 +3777,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3792,14 +3792,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3807,14 +3807,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3822,14 +3822,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3837,14 +3837,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3852,14 +3852,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3867,14 +3867,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3882,14 +3882,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3897,14 +3897,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3912,14 +3912,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3927,21 +3927,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
-<images/main.png, id=21, 677.53125pt x 602.25pt>
-File: images/main.png Graphic file (type png)
-<use images/main.png>
-Package pdftex.def Info: images/main.png  used on input line 375. on input line
- 375.
-Package pdftex.def Info: Requested size: 677.52959pt x 602.24852pt on input lin
-e 375.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3949,14 +3942,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...hmfinherits@#1\endcsname 
                                                   \csname beamer@thmfsize@#1...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3964,14 +3957,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
                                                   \csname beamer@thmfshape@#...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3979,14 +3972,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
                                                   \csname beamer@thmfseries@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -3994,14 +3987,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmfseries@#1\endcsname 
                                                   \csname beamer@thmffamily@...
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -4009,106 +4002,274 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \beamer@usebeamerfont ...@thmffamily@#1\endcsname 
                                                   \selectfont 
-l.375 \end{frame}
-                 
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.375 \end{frame}
-                 
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\beamer@usebeamerfont ...hmfinherits@#1\endcsname 
-                                                  \csname beamer@thmfsize@#1...
-l.375 \end{frame}
-                 
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.375 \end{frame}
-                 
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
-                                                  \csname beamer@thmfshape@#...
-l.375 \end{frame}
-                 
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.375 \end{frame}
-                 
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
-                                                  \csname beamer@thmfseries@...
-l.375 \end{frame}
-                 
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.375 \end{frame}
-                 
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\beamer@usebeamerfont ...@thmfseries@#1\endcsname 
-                                                  \csname beamer@thmffamily@...
-l.375 \end{frame}
-                 
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.375 \end{frame}
-                 
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\beamer@usebeamerfont ...@thmffamily@#1\endcsname 
-                                                  \selectfont 
-l.375 \end{frame}
+l.406 \end{frame}
                  
 I'm ignoring this, since I wasn't doing a \csname.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 375.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 375.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 406.
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Overfull \hbox (995.86203pt too wide) in paragraph at lines 375--375
+! Extra \endcsname.
+\beamer@usebeamerfont ...hmfinherits@#1\endcsname 
+                                                  \csname beamer@thmfsize@#1...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
+                                                  \csname beamer@thmfshape@#...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
+                                                  \csname beamer@thmfseries@...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...@thmfseries@#1\endcsname 
+                                                  \csname beamer@thmffamily@...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...@thmffamily@#1\endcsname 
+                                                  \selectfont 
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (995.86203pt too wide) in paragraph at lines 406--406
  []$[]$[]  
  []
 
+<images/main.png, id=23, 1204.5pt x 602.25pt>
+File: images/main.png Graphic file (type png)
+<use images/main.png>
+Package pdftex.def Info: images/main.png  used on input line 406. on input line
+ 406.
+Package pdftex.def Info: Requested size: 1204.49707pt x 602.24852pt on input li
+ne 406.
+! Undefined control sequence.
+\beamer@doifinframe ...e}[] \centering \captionof 
+                                                  {Table 1. Prevalence of \t...
+l.406 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \vbox (40.71979pt too high) detected at line 375
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...hmfinherits@#1\endcsname 
+                                                  \csname beamer@thmfsize@#1...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
+                                                  \csname beamer@thmfshape@#...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
+                                                  \csname beamer@thmfseries@...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...@thmfseries@#1\endcsname 
+                                                  \csname beamer@thmffamily@...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...@thmffamily@#1\endcsname 
+                                                  \selectfont 
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...hmfinherits@#1\endcsname 
+                                                  \csname beamer@thmfsize@#1...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...er@thmfsize@#1\endcsname 
+                                                  \csname beamer@thmfshape@#...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...r@thmfshape@#1\endcsname 
+                                                  \csname beamer@thmfseries@...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...@thmfseries@#1\endcsname 
+                                                  \csname beamer@thmffamily@...
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.406 \end{frame}
+                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\beamer@usebeamerfont ...@thmffamily@#1\endcsname 
+                                                  \selectfont 
+l.406 \end{frame}
+                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \vbox (42.55379pt too high) detected at line 406
  []
 
 ! Undefined control sequence.
 <argument> \logowidth 
                       
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4119,7 +4280,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.375 \end{frame}
+l.406 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4128,7 +4289,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.375 \end{frame}
+l.406 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4140,7 +4301,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \logowidth 
                       
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4151,7 +4312,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.375 \end{frame}
+l.406 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4160,7 +4321,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.375 \end{frame}
+l.406 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4172,7 +4333,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \logowidth 
                       
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4183,7 +4344,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.375 \end{frame}
+l.406 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4192,7 +4353,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.375 \end{frame}
+l.406 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4203,10 +4364,10 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: images/lg.png Graphic file (type png)
 <use images/lg.png>
-Package pdftex.def Info: images/lg.png  used on input line 375. on input line 3
-75.
+Package pdftex.def Info: images/lg.png  used on input line 406. on input line 4
+06.
 Package pdftex.def Info: Requested size: 528.82262pt x 512.1496pt on input line
- 375.
+ 406.
 
 Overfull \hbox (528.82262pt too wide) has occurred while \output is active
  [][]
@@ -4215,7 +4376,7 @@ Overfull \hbox (528.82262pt too wide) has occurred while \output is active
 ! Undefined control sequence.
 <argument> \logowidth 
                       
-l.375 \end{frame}
+l.406 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4226,7 +4387,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.375 \end{frame}
+l.406 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4235,7 +4396,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.375 \end{frame}
+l.406 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4257,11 +4418,11 @@ opy)>]
 \tf@snm=\write10
 \openout10 = `poster.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
 (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -4274,13 +4435,13 @@ Package logreq Info: Writing requests to 'poster.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33869 strings out of 492990
- 629250 string characters out of 6132150
- 1203205 words of memory out of 5000000
- 36592 multiletter control sequences out of 15000+600000
- 214613 words of font info for 236 fonts, out of 8000000 for 9000
+ 33655 strings out of 492990
+ 624781 string characters out of 6132150
+ 1211202 words of memory out of 5000000
+ 36383 multiletter control sequences out of 15000+600000
+ 214347 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,20n,68p,1133b,2939s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,20n,68p,1133b,1498s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/software/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<d:/softwar
 e/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb><d:/software/texlive
 /2017/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb><d:/software/texlive/2017/t
@@ -4289,10 +4450,10 @@ st/fonts/type1/public/lm/lmsso12.pfb><d:/software/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsso17.pfb><d:/software/texlive/2017/texmf-dist/fonts/type1/p
 ublic/lm/lmtt12.pfb><d:/software/texlive/2017/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msam10.pfb>
-Output written on poster.pdf (1 page, 588134 bytes).
+Output written on poster.pdf (1 page, 636471 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
  67676 words of extra memory for PDF output out of 74296 (max. 10000000)
 

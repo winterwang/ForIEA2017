@@ -10,7 +10,7 @@ web: "winterwang.github.io"
 logo: "images/lg.png"
 #backimg: "images/logo.png"
 bibliofiles: "bib/bib.bib"
-posteroptions: width=90,height=140,scale=1.2 #,grid # portrait
+posteroptions: width=90,height=145,scale=1.2 #,grid # portrait
 #posteroptions: width=110,height=90,scale=1.2 #,grid # landscape
 headerheight: 18cm
 colorstyle:
@@ -88,13 +88,50 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 # RESULTS
 
-![Multivariable adjusted prevalence of _H. pylori_ infection in Japanese by birth year.](images/main.png)
+- Details/characteristics of the studies included in the current meta-regression analysis are available [**online**](http://rpubs.com/winterwang/288338)^[http://rpubs.com/winterwang/288338]
 
-# Take-home message
+- Summary of the results of risk of bias diagnosis is available [**here**](http://rpubs.com/winterwang/riskofbias)^[http://rpubs.com/winterwang/riskofbias]
 
-- `R bookdownplus` is an extension of `bookdown` for academic and literal writing, especially for reproducible reports.
+![](images/main.png)
 
-- `R bookdownplus` is still being developed. Feel free to join me either in contributing templates to [**my Github repo**](https://github.com/pzhaonet/bookdownplus) ^[https://github.com/pzhaonet/bookdownplus], or in writing the tutorial of R bookdownplus [@R-bdp].
+
+\begin{table}[]
+\centering
+\captionof{Table 1. Prevalence of \textit{H. pylori} infection by birth year}
+\label{my-label}
+\begin{tabular}{@{}cccc@{}}
+\toprule
+Birth Year & Prevalence & 95\% CI low & 95\% CI high \\ \midrule
+1908 & 0.574 & 0.520 & 0.626 \\
+1909 & 0.580 & 0.530 & 0.628 \\
+1910 & 0.586 & 0.540 & 0.631 \\
+1911 & 0.592 & 0.549 & 0.633 \\
+1912 & 0.597 & 0.559 & 0.635 \\
+\dots & \dots & \dots & \dots \\
+1925 & 0.650 & 0.634 & 0.667 \\
+1926 & 0.651 & 0.635 & 0.667 \\
+\rowcolor[HTML]{F8FF00} 
+1927 & 0.652 & 0.636 & 0.666 \\
+1928 & 0.651 & 0.637 & 0.665 \\
+1929 & 0.651 & 0.637 & 0.664 \\
+\dots & \dots & \dots & \dots \\
+\rowcolor[HTML]{F8FF00} 
+1996 & 0.080 & 0.064 & 0.100 \\
+1997 & 0.075 & 0.059 & 0.095 \\
+1998 & 0.070 & 0.054 & 0.091 \\
+\dots & \dots & \dots & \dots \\
+2002 & 0.053 & 0.036 & 0.076 \\
+2003 & 0.049 & 0.032 & 0.074 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+
+# CONCLUSION
+
+- Prevalence of _H. pylori_ infection exhibits **a birth cohort effect** in Japan, with prevalence decreasing steadily in individuals born in successive years, **from 55.6% in 1950 to 12.8% in 1990**.  
+
+- Given the fact that the birth-cohort pattern of _H. pylori_ shapes the trends of gastric cancer over time, our findings help to inform screening efforts aimed at prevention and early detection of gastric cancer in Japan.
+
 
 <!--\vskip0.5cm
 
@@ -107,16 +144,9 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 -->
 
-# COI Declaration
+# COI Declaration: None
 
 
-
-\vskip1.5cm
-
-
-# Bibliography
-
-\printbibliography
 
 <!--\vskip4.4cm-->
 
