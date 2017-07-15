@@ -10,7 +10,7 @@ web: "winterwang.github.io"
 logo: "images/lg.png"
 #backimg: "images/logo.png"
 bibliofiles: "bib/bib.bib"
-posteroptions: width=90,height=145,scale=1.2 #,grid # portrait
+posteroptions: width=90,height=146,scale=1.2 #,grid # portrait
 #posteroptions: width=110,height=90,scale=1.2 #,grid # landscape
 headerheight: 18cm
 colorstyle:
@@ -34,7 +34,7 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 -  Evidence supports a central role for _H. pylori_ in the development of upper-gastrointestinal diseases, including peptic ulcer and noncardia gastric cancer.
 
--  Cross-sectional studies have suggested that the prevalence of _H. pylori_ infection increases with age, while the whole picture remains obscure.
+-  Studies have suggested that the prevalence of _H. pylori_ infection increases with age, while the whole picture remains obscure.
 
 -  We systematically reviewed the existing literature that presented estimates of the prevalence of _H. pylori_ infection in the Japanese population.
 
@@ -58,17 +58,21 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 - **EMBASE **  ("prevalence"/exp OR prevalence:ab, ti) AND ("Japan"/exp OR "Japan: ab, ti" OR "Japanese: ab, ti") AND ("helicobacter"/exp OR "helicobacter pylori": ab, ti) AND (humans)/lim.
 
-- We also scrutinised the reference lists, and searched for unpublished data by contacting the head of known ongoing study projects in Japan. 
+- We also scrutinised the reference lists, and searched for unpublished data by contacting the head of known ongoing projects. 
 
-- The risk-of-bias assessment was independently performed by two authors (LY and WC) using the Joanna Briggs Institute Prevalence Critical Appraisal Tool。
+- The risk-of-bias assessment was independently performed by two authors (LY and WC) using the [**Joanna Briggs Institute Prevalence Critical Appraisal Tool**](http://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal-Checklist_for_Prevalence_Studies.pdf)^[http://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal-Checklist_for_Prevalence_Studies.pdf].
 
 ![Flowchart of Study Selection](images/Figure_1.png)
 
 # STATISTICAL ANALYSIS (1)
 
+- More details on how to estimate prevalence of _H. pylori_ by birth year can be found [**here**](https://winterwang.github.io/For_Inoue_pylori/)^[https://winterwang.github.io/For_Inoue_pylori/].
+
 - Prevalence by birth year were extracted from 45 studies (273 data points).
 
 - Penalized cubic spline was used to model the prevalence as a function of birth year in the framework of generalized additive mixed model (GAMM) implemented in the `mgcv` package in R. 
+
+
 
 [column]
 
@@ -92,7 +96,7 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 \begin{table}[]
 \centering
-\captionof{Table 1. Prevalence of \textit{H. pylori} infection by birth year}
+\captionof{Table 1. Estimated prevalence of \textit{H. pylori} infection by birth year}
 \label{my-label}
 \begin{tabular}{@{}cccc@{}}
 \toprule
