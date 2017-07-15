@@ -1,0 +1,162 @@
+---
+title: "Changing trends in the prevalence of _H. pylori_ infection in Japan (1908-2003): a systematic review and meta-regression analysis of 170,000 individuals"
+author: Chaochen Wang^1^, Takeshi Nishiyama^1^, Shogo Kikuchi^1^, Manami Inoue^2^,  Norie Sawada^2^, Shoichiro Tsugane^2^, Yingsong Lin^1^
+email: "abelardccwang@gmail.com"
+institute: | 
+    | 1 Department of Public Health, Aichi Medical University, Nagakute, Aichi, Japan; 
+    | 2 Epidemiology and Prevention Group, Center for Public Health Sciences, National Cancer Center, Tokyo, Japan
+longinstitute: "Aichi Medical University"
+web: "winterwang.github.io"
+logo: "images/lg.png"
+#backimg: "images/logo.png"
+bibliofiles: "bib/bib.bib"
+posteroptions: width=90,height=140,scale=1.2 #,grid # portrait
+#posteroptions: width=110,height=90,scale=1.2 #,grid # landscape
+headerheight: 18cm
+colorstyle:
+# large, Large, LARGE, huge, Huge, veryHuge, VeryHuge, VERYHuge
+titlefont: size=\huge,series=\bfseries
+authorfont: size=\LARGE
+institutefont: size=\LARGE
+knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R', local = TRUE) })
+---
+
+
+
+
+[columns=2]
+
+[column]
+
+# BACKGROUND
+
+-  Gastric cancer burden remains high in Japan, where it is the second-leading cause of cancer deaths, accounting for annual deaths of approximately 50,000 in Japan.
+
+-  Substantial evidence supports a central role for _H. pylori_ in the parthenogenesis of upper-gastrointestinal diseases, including peptic ulcer and noncardia gastric cancer.
+
+-  Cross-sectional studies have suggested that the prevalence of _H. pylori_ infection increases with age, while the whole picture remains obscure.
+
+-  We systematically reviewed the existing literature that presented estimates of the prevalence of _H. pylori_ infection in the Japanese population.
+
+-  The obejectives are: (1) to derive a robust prevalence estimate of _H. pylori_ infection by birth year; (2) to clarify whether _H. pylori_ infection exhibits a birth-cohort pattern. 
+
+<!--
+
+- Standard abreviations \\eg and \\ie for \eg and \ie
+- Units like \pps{900}
+- **Highlights** and *highlights*
+
+-->
+
+# Quick start
+
+Before starting, you have to install R, RStudio, bookdown package, and other software and packages (\ie `Pandoc`, \LaTeX, `rmarkdown`, `rticle`, `knitr`, etc.) which bookdown depends on. See the official manual of [bookdown](https://bookdown.org/yihui/bookdown/) for details.
+
+Installation:
+
+`devtools::install_github("pzhaonet/bookdownplus")`
+
+Run the following codes, and you will get some files (e.g. index.Rmd and body.Rmd) and folders in your working directory.
+
+`bookdownplus::bookdownplus()`
+
+Now press `ctrl+shift+b` to compile it. Your will get a book file named `index.pdf` in `_book/`  folder.
+
+Write your own text in `index.Rmd` and `body.Rmd`, and build your own lovely book. Have fun!
+
+
+# Graphs
+
+Using `bookdown` or `rmarkdown`, users can insert figures into a document in a friendly way. Just embed the R scripts into your `.Rmd` file(s) and compile it/them with knitr package, and the figures will appear automatically with high resolution and reproductivity.
+
+<!--
+
+![Carbon dioxide concentration, observed at Mauna Loa.](poster-figures/co2-1.pdf)
+
+-->
+
+![IRIS data plotted with R ggplot2 package.](poster-figures/iris-1.pdf)
+
+<!-- Comments -->
+
+
+# Table
+
+Similarly to graphs, tables can be inserted either with R script or with markdown syntax.
+
+<!--
+
+header x  header y
+--------- ----------
+x1        y1
+x2        y2
+
+-->
+
+
+| Sepal.Length| Sepal.Width| Petal.Length| Petal.Width|Species |
+|------------:|-----------:|------------:|-----------:|:-------|
+|          5.1|         3.5|          1.4|         0.2|setosa  |
+|          4.9|         3.0|          1.4|         0.2|setosa  |
+|          4.7|         3.2|          1.3|         0.2|setosa  |
+
+# Bibliography
+
+\printbibliography
+
+
+[column]
+
+# Book types supported by `bookdownplus`
+
+Some sample pages are displayed as follows. More details can be found in the tutorial book [@R-bdp].
+
+
+\begin{figure}[htp]
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}
+\end{figure}    
+
+\begin{figure}[htp]
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}
+\end{figure}    
+
+\begin{figure}[htp]
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
+  \includegraphics[width=.33\textwidth]{images/mail.pdf}
+\end{figure}    
+
+
+# Take-home message
+
+- `R bookdownplus` is an extension of `bookdown` for academic and literal writing, especially for reproducible reports.
+
+- `R bookdownplus` is still being developed. Feel free to join me either in contributing templates to [**my Github repo**](https://github.com/pzhaonet/bookdownplus) ^[https://github.com/pzhaonet/bookdownplus], or in writing the tutorial of R bookdownplus [@R-bdp].
+
+<!--\vskip0.5cm
+
+[/columns]
+
+
+[columns=2]
+
+[column]
+
+-->
+
+# Acknowledgements
+
+Many thanks to Dr. Yihui Xie for his amazing generosity and incredible patience in helping me get into the wonderful world of R bookdown.
+
+The open source codes from Github and R community are much appreciated.
+
+\vskip1.5cm
+
+
+<!--\vskip4.4cm-->
+
+[/columns]
