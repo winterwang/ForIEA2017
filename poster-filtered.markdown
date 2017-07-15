@@ -30,15 +30,17 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 # BACKGROUND
 
--  Gastric cancer burden remains high in Japan, where it is the second-leading cause of cancer deaths, accounting for annual deaths of approximately 50,000 in Japan.
+-  Gastric cancer burden remains high in Japan, approximately 50,000 deaths/year in Japan (2nd leading cause of cancer deaths).
 
--  Substantial evidence supports a central role for _H. pylori_ in the parthenogenesis of upper-gastrointestinal diseases, including peptic ulcer and noncardia gastric cancer.
+-  Evidence supports a central role for _H. pylori_ in the development of upper-gastrointestinal diseases, including peptic ulcer and noncardia gastric cancer.
 
 -  Cross-sectional studies have suggested that the prevalence of _H. pylori_ infection increases with age, while the whole picture remains obscure.
 
 -  We systematically reviewed the existing literature that presented estimates of the prevalence of _H. pylori_ infection in the Japanese population.
 
--  The obejectives are: (1) to derive a robust prevalence estimate of _H. pylori_ infection by birth year; (2) to clarify whether _H. pylori_ infection exhibits a birth-cohort pattern. 
+-  The obejectives are:  
+   a) to derive a robust prevalence estimate of _H. pylori_ infection by birth year;   
+   b) to clarify whether _H. pylori_ infection exhibits a birth-cohort pattern. 
 
 <!--
 
@@ -48,88 +50,40 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 -->
 
-# Quick start
+# DATA SOURCES AND SEARCH STRATEGY
 
-Before starting, you have to install R, RStudio, bookdown package, and other software and packages (\ie `Pandoc`, \LaTeX, `rmarkdown`, `rticle`, `knitr`, etc.) which bookdown depends on. See the official manual of [bookdown](https://bookdown.org/yihui/bookdown/) for details.
+- The PRISMA statement for preferred reporting of systematic reviews and meta-analyses was used as a guide to conduct this study. (Fig.1. Flowchart of Study Selection) 
 
-Installation:
+- **PubMed ** ("Helicobacter"[Mesh] OR "Helicobacter pylori"[title/abstract]) AND ("Prevalence"[Mesh] OR "prevalence"[title/abstract]) AND ("Japan"[Mesh] OR "Japan"[title/abstract] OR "Japanese"[title/abstract])
 
-`devtools::install_github("pzhaonet/bookdownplus")`
+- **EMBASE **  ("prevalence"/exp OR prevalence:ab, ti) AND ("Japan"/exp OR "Japan: ab, ti" OR "Japanese: ab, ti") AND ("helicobacter"/exp OR "helicobacter pylori": ab, ti) AND (humans)/lim.
 
-Run the following codes, and you will get some files (e.g. index.Rmd and body.Rmd) and folders in your working directory.
+- We also scrutinised the reference lists, and searched for unpublished data by contacting the head of known ongoing study projects in Japan. 
 
-`bookdownplus::bookdownplus()`
+- The risk-of-bias assessment was independently performed by two authors (LY and WC) using the Joanna Briggs Institute Prevalence Critical Appraisal Tool。
 
-Now press `ctrl+shift+b` to compile it. Your will get a book file named `index.pdf` in `_book/`  folder.
+![Flowchart of Study Selection](images/Figure_1.png)
 
-Write your own text in `index.Rmd` and `body.Rmd`, and build your own lovely book. Have fun!
+# STATISTICAL ANALYSIS (1)
 
+- Prevalence by birth year were extracted from 45 studies (273 data points).
 
-# Graphs
-
-Using `bookdown` or `rmarkdown`, users can insert figures into a document in a friendly way. Just embed the R scripts into your `.Rmd` file(s) and compile it/them with knitr package, and the figures will appear automatically with high resolution and reproductivity.
-
-<!--
-
-![Carbon dioxide concentration, observed at Mauna Loa.](poster-figures/co2-1.pdf)
-
--->
-
-![IRIS data plotted with R ggplot2 package.](poster-figures/iris-1.pdf)
-
-<!-- Comments -->
-
-
-# Table
-
-Similarly to graphs, tables can be inserted either with R script or with markdown syntax.
-
-<!--
-
-header x  header y
---------- ----------
-x1        y1
-x2        y2
-
--->
-
-
-| Sepal.Length| Sepal.Width| Petal.Length| Petal.Width|Species |
-|------------:|-----------:|------------:|-----------:|:-------|
-|          5.1|         3.5|          1.4|         0.2|setosa  |
-|          4.9|         3.0|          1.4|         0.2|setosa  |
-|          4.7|         3.2|          1.3|         0.2|setosa  |
-
-# Bibliography
-
-\printbibliography
-
+- Penalized cubic spline was used to model the prevalence as a function of birth year in the framework of generalized additive mixed model (GAMM) implemented in the `mgcv` package in R. 
 
 [column]
 
-# Book types supported by `bookdownplus`
+# STATISTICAL ANALYSIS (2) 
 
-Some sample pages are displayed as follows. More details can be found in the tutorial book [@R-bdp].
+- Pre-specified explanatory variables included in the meta-regression were as follows:   
+  Study ID, birth year, population source (community-based or clinical-based), diagnostic testing (serological test, or others; others: urinary assays, salivary assays, stool antigen tests, and gastric biopsy), types of ELISA kits for measuring _H. pylori_ positivity (antigen derived from domestic or foreign strains), and data collection period (prior to the year 2000, or later than 2000), with **study ID as a random effect** and **other variables as fixed effects**.
+
+- Observations weighted by the inverse of the sum of the within-study variance and the residual between-study variance using the `meta` package.
 
 
-\begin{figure}[htp]
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}
-\end{figure}    
 
-\begin{figure}[htp]
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}
-\end{figure}    
+# RESULTS
 
-\begin{figure}[htp]
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}
-\end{figure}    
-
+![Multivariable adjusted prevalence of _H. pylori_ infection in Japanese by birth year.](images/main.png)
 
 # Take-home message
 
@@ -148,14 +102,16 @@ Some sample pages are displayed as follows. More details can be found in the tut
 
 -->
 
-# Acknowledgements
+# COI Declaration
 
-Many thanks to Dr. Yihui Xie for his amazing generosity and incredible patience in helping me get into the wonderful world of R bookdown.
 
-The open source codes from Github and R community are much appreciated.
 
 \vskip1.5cm
 
+
+# Bibliography
+
+\printbibliography
 
 <!--\vskip4.4cm-->
 

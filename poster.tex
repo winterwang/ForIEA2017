@@ -30,7 +30,7 @@
 \pdfstringdefDisableCommands{\renewcommand{\sout}{}}
 \graphicspath{{figures/}}
 % Fix sort order in case the same file exists with multiple extensions
-\DeclareGraphicsExtensions{.pdf,.png,.jpeg,.jpg,.eps}
+\DeclareGraphicsExtensions{.pdf,.png,.jpeg,.jpg,.eps, .tiff}
 \frenchspacing
 
 \input{tex/definitions.tex}
@@ -229,13 +229,12 @@ National Cancer Center, Tokyo, Japan}
 
 \begin{itemize}
 \item
-  Gastric cancer burden remains high in Japan, where it is the
-  second-leading cause of cancer deaths, accounting for annual deaths of
-  approximately 50,000 in Japan.
+  Gastric cancer burden remains high in Japan, approximately 50,000
+  deaths/year in Japan (2nd leading cause of cancer deaths).
 \item
-  Substantial evidence supports a central role for \emph{H. pylori} in
-  the parthenogenesis of upper-gastrointestinal diseases, including
-  peptic ulcer and noncardia gastric cancer.
+  Evidence supports a central role for \emph{H. pylori} in the
+  development of upper-gastrointestinal diseases, including peptic ulcer
+  and noncardia gastric cancer.
 \item
   Cross-sectional studies have suggested that the prevalence of \emph{H.
   pylori} infection increases with age, while the whole picture remains
@@ -245,101 +244,100 @@ National Cancer Center, Tokyo, Japan}
   estimates of the prevalence of \emph{H. pylori} infection in the
   Japanese population.
 \item
-  The obejectives are: (1) to derive a robust prevalence estimate of
-  \emph{H. pylori} infection by birth year; (2) to clarify whether
-  \emph{H. pylori} infection exhibits a birth-cohort pattern.
+  The obejectives are:\\
 \end{itemize}
 
-\end{block}
-
-\begin{block}{Quick start}
-
-Before starting, you have to install R, RStudio, bookdown package, and
-other software and packages (\ie \texttt{Pandoc}, \LaTeX,
-\texttt{rmarkdown}, \texttt{rticle}, \texttt{knitr}, etc.) which
-bookdown depends on. See the official manual of
-\href{https://bookdown.org/yihui/bookdown/}{bookdown} for details.
-
-Installation:
-
-\texttt{devtools::install\_github("pzhaonet/bookdownplus")}
-
-Run the following codes, and you will get some files (e.g.~index.Rmd and
-body.Rmd) and folders in your working directory.
-
-\texttt{bookdownplus::bookdownplus()}
-
-Now press \texttt{ctrl+shift+b} to compile it. Your will get a book file
-named \texttt{index.pdf} in \texttt{\_book/} folder.
-
-Write your own text in \texttt{index.Rmd} and \texttt{body.Rmd}, and
-build your own lovely book. Have fun!
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  to derive a robust prevalence estimate of \emph{H. pylori} infection
+  by birth year;\\
+\item
+  to clarify whether \emph{H. pylori} infection exhibits a birth-cohort
+  pattern.
+\end{enumerate}
 
 \end{block}
 
-\begin{block}{Graphs}
+\begin{block}{DATA SOURCES AND SEARCH STRATEGY}
 
-Using \texttt{bookdown} or \texttt{rmarkdown}, users can insert figures
-into a document in a friendly way. Just embed the R scripts into your
-\texttt{.Rmd} file(s) and compile it/them with knitr package, and the
-figures will appear automatically with high resolution and
-reproductivity.
+\begin{itemize}
+\item
+  The PRISMA statement for preferred reporting of systematic reviews and
+  meta-analyses was used as a guide to conduct this study. (Fig.1.
+  Flowchart of Study Selection)
+\item
+  \textbf{PubMed } (\enquote{Helicobacter}{[}Mesh{]} OR
+  \enquote{Helicobacter pylori}{[}title/abstract{]}) AND
+  (\enquote{Prevalence}{[}Mesh{]} OR
+  \enquote{prevalence}{[}title/abstract{]}) AND
+  (\enquote{Japan}{[}Mesh{]} OR \enquote{Japan}{[}title/abstract{]} OR
+  \enquote{Japanese}{[}title/abstract{]})
+\item
+  \textbf{EMBASE } (\enquote{prevalence}/exp OR prevalence:ab, ti) AND
+  (\enquote{Japan}/exp OR \enquote{Japan: ab, ti} OR \enquote{Japanese:
+  ab, ti}) AND (\enquote{helicobacter}/exp OR \enquote{helicobacter
+  pylori}: ab, ti) AND (humans)/lim.
+\item
+  We also scrutinised the reference lists, and searched for unpublished
+  data by contacting the head of known ongoing study projects in Japan.
+\item
+  The risk-of-bias assessment was independently performed by two authors
+  (LY and WC) using the Joanna Briggs Institute Prevalence Critical
+  Appraisal Tool。
+\end{itemize}
 
 \begin{figure}
-\includegraphics[]{poster-figures/iris-1.pdf}
-\caption{IRIS data plotted with R ggplot2 package.}
+\includegraphics[]{images/Figure_1.png}
+\caption{Flowchart of Study Selection}
 \end{figure}
 
 \end{block}
 
-\begin{block}{Table}
+\begin{block}{STATISTICAL ANALYSIS (1)}
 
-Similarly to graphs, tables can be inserted either with R script or with
-markdown syntax.
-
-\begin{longtable}[]{@{}rrrrl@{}}
-\toprule
-Sepal.Length & Sepal.Width & Petal.Length & Petal.Width &
-Species\tabularnewline
-\midrule
-\endhead
-5.1 & 3.5 & 1.4 & 0.2 & setosa\tabularnewline
-4.9 & 3.0 & 1.4 & 0.2 & setosa\tabularnewline
-4.7 & 3.2 & 1.3 & 0.2 & setosa\tabularnewline
-\bottomrule
-\end{longtable}
-
-\end{block}
-
-\begin{block}{Bibliography}
-
-\printbibliography
+\begin{itemize}
+\item
+  Prevalence by birth year were extracted from 45 studies (273 data
+  points).
+\item
+  Penalized cubic spline was used to model the prevalence as a function
+  of birth year in the framework of generalized additive mixed model
+  (GAMM) implemented in the \texttt{mgcv} package in R.
+\end{itemize}
 
 \end{block}
 
 \column{(\linewidth-1cm)*\real{0.500000}}
 
-\begin{block}{Book types supported by bookdownplus}
+\begin{block}{STATISTICAL ANALYSIS (2)}
 
-Some sample pages are displayed as follows. More details can be found in
-the tutorial book \autocite{R-bdp}.
+\begin{itemize}
+\item
+  Pre-specified explanatory variables included in the meta-regression
+  were as follows:\\
+  Study ID, birth year, population source (community-based or
+  clinical-based), diagnostic testing (serological test, or others;
+  others: urinary assays, salivary assays, stool antigen tests, and
+  gastric biopsy), types of ELISA kits for measuring \emph{H. pylori}
+  positivity (antigen derived from domestic or foreign strains), and
+  data collection period (prior to the year 2000, or later than 2000),
+  with \textbf{study ID as a random effect} and \textbf{other variables
+  as fixed effects}.
+\item
+  Observations weighted by the inverse of the sum of the within-study
+  variance and the residual between-study variance using the
+  \texttt{meta} package.
+\end{itemize}
 
-\begin{figure}[htp]
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}
-\end{figure}
+\end{block}
 
-\begin{figure}[htp]
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}
-\end{figure}
+\begin{block}{RESULTS}
 
-\begin{figure}[htp]
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}\hfill
-  \includegraphics[width=.33\textwidth]{images/mail.pdf}
+\begin{figure}
+\includegraphics[]{images/main.png}
+\caption{Multivariable adjusted prevalence of H. pylori infection in Japanese by birth year.}
 \end{figure}
 
 \end{block}
@@ -360,14 +358,15 @@ the tutorial book \autocite{R-bdp}.
 
 \end{block}
 
-\begin{block}{Acknowledgements}
-
-Many thanks to Dr.~Yihui Xie for his amazing generosity and incredible
-patience in helping me get into the wonderful world of R bookdown.
-
-The open source codes from Github and R community are much appreciated.
+\begin{block}{COI Declaration}
 
 \vskip1.5cm
+
+\end{block}
+
+\begin{block}{Bibliography}
+
+\printbibliography
 
 \end{block}
 
