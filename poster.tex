@@ -11,7 +11,7 @@
 ]{beamer}
 
 \usepackage[size=custom,width=100,height=100
-    ,width=90,height=146,scale=1.2
+    ,width=90,height=146.5,scale=1.2
 ]{tex/beamerposter}
 
 \usepackage[utf8]{inputenc}
@@ -143,8 +143,6 @@
       \begin{column}{2cm}
       \end{column}
       \begin{column}{\logowidth}
-%        \raggedleft\includegraphics[width=\headerheight,angle=-90]{images/lg.png}
-        \raggedleft\includegraphics[height=\headerheight]{images/lg.png}
       \end{column}
     \end{columns}
   \end{beamercolorbox}
@@ -267,31 +265,32 @@ National Cancer Center, Tokyo, Japan}
   meta-analyses was used as a guide to conduct this study. (Fig.1.
   Flowchart of Study Selection)
 \item
-  \textbf{PubMed } (\enquote{Helicobacter}{[}Mesh{]} OR
+  \textbf{PubMed: } (\enquote{Helicobacter}{[}Mesh{]} OR
   \enquote{Helicobacter pylori}{[}title/abstract{]}) AND
   (\enquote{Prevalence}{[}Mesh{]} OR
-  \enquote{prevalence}{[}title/abstract{]}) AND
-  (\enquote{Japan}{[}Mesh{]} OR \enquote{Japan}{[}title/abstract{]} OR
-  \enquote{Japanese}{[}title/abstract{]})
+  \enquote{prevalence}{[}title/abstract{]} OR \enquote{infection rate})
+  AND (\enquote{Japan}{[}Mesh{]} OR \enquote{Japan}{[}title/abstract{]}
+  OR \enquote{Japanese}{[}title/abstract{]})
 \item
-  \textbf{EMBASE } (\enquote{prevalence}/exp OR prevalence:ab, ti) AND
+  \textbf{EMBASE: } (\enquote{prevalence}/exp OR prevalence:ab, ti OR
+  \enquote{infection rate}/exp OR \enquote{infection rate}: ab, ti) AND
   (\enquote{Japan}/exp OR \enquote{Japan: ab, ti} OR \enquote{Japanese:
   ab, ti}) AND (\enquote{helicobacter}/exp OR \enquote{helicobacter
   pylori}: ab, ti) AND (humans)/lim.
 \item
   We also scrutinised the reference lists, and searched for unpublished
-  data by contacting the head of known ongoing projects.
+  data by contacting the head of ongoing projects.
 \item
   The risk-of-bias assessment was independently performed by two authors
-  (LY and WC) using the
+  (Y.L. and C.W.) using the
   \href{http://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal-Checklist_for_Prevalence_Studies.pdf}{\textbf{Joanna
   Briggs Institute Prevalence Critical Appraisal Tool}}\footnote{http://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI\_Critical\_Appraisal-Checklist\_for\_Prevalence\_Studies.pdf}.
 \end{itemize}
 
-\begin{figure}
-\includegraphics[]{images/Figure_1.png}
-\caption{Flowchart of Study Selection}
-\end{figure}
+\center
+\includegraphics[width=890pt]{images/Figure_1.png}
+
+\caption{Figure 1: PRISMA Flowchart of Study Selection}
 
 \end{block}
 
@@ -303,7 +302,7 @@ National Cancer Center, Tokyo, Japan}
   birth year can be found
   \href{https://winterwang.github.io/For_Inoue_pylori/}{\textbf{here}}\footnote{https://winterwang.github.io/For\_Inoue\_pylori/}.
 \item
-  Prevalence by birth year were extracted from 45 studies (273 data
+  Prevalence by birth year were extracted from 47 studies (300 data
   points).
 \item
   Penalized cubic spline was used to model the prevalence as a function

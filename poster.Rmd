@@ -7,10 +7,10 @@ institute: |
     | 2 Epidemiology and Prevention Group, Center for Public Health Sciences, National Cancer Center, Tokyo, Japan
 longinstitute: "Aichi Medical University"
 web: "winterwang.github.io"
-logo: "images/lg.png"
+#logo: "images/lg.png"
 #backimg: "images/logo.png"
 bibliofiles: "bib/bib.bib"
-posteroptions: width=90,height=146,scale=1.2 #,grid # portrait
+posteroptions: width=90,height=146.5,scale=1.2 #,grid # portrait
 #posteroptions: width=110,height=90,scale=1.2 #,grid # landscape
 headerheight: 18cm
 colorstyle:
@@ -64,21 +64,24 @@ knitr::opts_chunk$set(fig.width = 16, fig.height = 4)
 
 - The PRISMA statement for preferred reporting of systematic reviews and meta-analyses was used as a guide to conduct this study. (Fig.1. Flowchart of Study Selection) 
 
-- **PubMed ** ("Helicobacter"[Mesh] OR "Helicobacter pylori"[title/abstract]) AND ("Prevalence"[Mesh] OR "prevalence"[title/abstract]) AND ("Japan"[Mesh] OR "Japan"[title/abstract] OR "Japanese"[title/abstract])
+- **PubMed: ** ("Helicobacter"[Mesh] OR "Helicobacter pylori"[title/abstract]) AND ("Prevalence"[Mesh] OR "prevalence"[title/abstract] OR "infection rate") AND ("Japan"[Mesh] OR "Japan"[title/abstract] OR "Japanese"[title/abstract])
 
-- **EMBASE **  ("prevalence"/exp OR prevalence:ab, ti) AND ("Japan"/exp OR "Japan: ab, ti" OR "Japanese: ab, ti") AND ("helicobacter"/exp OR "helicobacter pylori": ab, ti) AND (humans)/lim.
+- **EMBASE: **  ("prevalence"/exp OR prevalence:ab, ti  OR "infection rate"/exp OR "infection rate": ab, ti) AND ("Japan"/exp OR "Japan: ab, ti" OR "Japanese: ab, ti") AND ("helicobacter"/exp OR "helicobacter pylori": ab, ti) AND (humans)/lim.
 
-- We also scrutinised the reference lists, and searched for unpublished data by contacting the head of known ongoing projects. 
+- We also scrutinised the reference lists, and searched for unpublished data by contacting the head of ongoing projects. 
 
-- The risk-of-bias assessment was independently performed by two authors (LY and WC) using the [**Joanna Briggs Institute Prevalence Critical Appraisal Tool**](http://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal-Checklist_for_Prevalence_Studies.pdf)^[http://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal-Checklist_for_Prevalence_Studies.pdf].
+- The risk-of-bias assessment was independently performed by two authors (Y.L. and C.W.) using the [**Joanna Briggs Institute Prevalence Critical Appraisal Tool**](http://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal-Checklist_for_Prevalence_Studies.pdf)^[http://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal-Checklist_for_Prevalence_Studies.pdf].
 
-![Flowchart of Study Selection](images/Figure_1.png)
+\center
+\includegraphics[width=890pt]{images/Figure_1.png}
+
+\caption{Figure 1: PRISMA Flowchart of Study Selection}
 
 # STATISTICAL ANALYSIS (1)
 
 - More details on how to estimate prevalence of _H. pylori_ by birth year can be found [**here**](https://winterwang.github.io/For_Inoue_pylori/)^[https://winterwang.github.io/For_Inoue_pylori/].
 
-- Prevalence by birth year were extracted from 45 studies (273 data points).
+- Prevalence by birth year were extracted from 47 studies (300 data points).
 
 - Penalized cubic spline was used to model the prevalence as a function of birth year in the framework of generalized additive mixed model (GAMM) implemented in the `mgcv` package in R. 
 
