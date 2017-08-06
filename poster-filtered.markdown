@@ -107,7 +107,7 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 \centering
 %\caption{My caption}
 %\label{my-label}
-\begin{tabular}{@{}cccc@{}}
+\begin{tabular}{p{10cm}p{10cm}p{8cm}p{8cm}}
 \toprule
 \textbf{Birth year} & \textbf{Prevalence} & \textbf{95\% Low} & \textbf{95\% High} \\ \midrule
 1908                & 0.597               & 0.543             & 0.649              \\
