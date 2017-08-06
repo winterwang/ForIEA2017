@@ -1,5 +1,5 @@
 ---
-title: "Changing trends in the prevalence of _H. pylori_ infection in Japan (1908-2003): a systematic review and meta-regression analysis of 170,000 individuals"
+title: "Changing trends in the prevalence of _H. pylori_ infection in Japan (1908-2003): a systematic review and meta-regression analysis of 170,572 individuals"
 author: Chaochen Wang^1^, Takeshi Nishiyama^1^, Shogo Kikuchi^1^, Manami Inoue^2^,  Norie Sawada^2^, Shoichiro Tsugane^2^, Yingsong Lin^1^
 email: "abelardccwang@gmail.com"
 institute: | 
@@ -12,12 +12,12 @@ web: "winterwang.github.io"
 bibliofiles: "bib/bib.bib"
 posteroptions: width=90,height=146.5,scale=1.2 #,grid # portrait
 #posteroptions: width=110,height=90,scale=1.2 #,grid # landscape
-headerheight: 18cm
+headerheight: 14cm
 colorstyle:
 # large, Large, LARGE, huge, Huge, veryHuge, VeryHuge, VERYHuge
 titlefont: size=\huge,series=\bfseries
-authorfont: size=\LARGE
-institutefont: size=\LARGE
+authorfont: size=\Large
+institutefont: size=\Large
 knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R', local = TRUE) })
 ---
 
@@ -78,18 +78,17 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 - Prevalence by birth year were extracted from 47 studies (300 data points).
 
-- Penalized cubic spline was used to model the prevalence as a function of birth year in the framework of generalized additive mixed model (GAMM) implemented in the `mgcv` package in R. 
+- Observations weighted by the inverse of the sum of the within-study variance and the residual between-study variance using the `meta` package.
 
 
 
 [column]
 
 # STATISTICAL ANALYSIS (2) 
+- Penalized cubic spline was used to model the prevalence as a function of birth year in the framework of generalized additive mixed model (GAMM) implemented in the `mgcv` package in R. 
 
 - Pre-specified explanatory variables included in the meta-regression were as follows:   
   Study ID, birth year, population source (community-based or clinical-based), diagnostic testing (serological test, or others; others: urinary assays, salivary assays, stool antigen tests, and gastric biopsy), types of ELISA kits for measuring _H. pylori_ positivity (antigen derived from domestic or foreign strains), and data collection period (prior to the year 2000, or later than 2000), with **study ID as a random effect** and **other variables as fixed effects**.
-
-- Observations weighted by the inverse of the sum of the within-study variance and the residual between-study variance using the `meta` package.
 
 
 
@@ -99,7 +98,11 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 - Summary of the results of risk of bias diagnosis is available [**here**](http://rpubs.com/winterwang/riskofbias)^[http://rpubs.com/winterwang/riskofbias]
 
-![](images/main.png)
+\center
+\caption{Figure 2: Multivariable adjusted prevalence of \textit{H. pylori} by birth year}
+\includegraphics[width=1200pt]{images/Figure2Rev.png}
+
+
 
 
 \begin{table}[]

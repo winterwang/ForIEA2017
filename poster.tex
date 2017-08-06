@@ -66,7 +66,7 @@
 
 \newbox{\layoutbox}
 \newlength{\headerheight}
-\setlength\headerheight{18cm}
+\setlength\headerheight{14cm}
 %\newlength{\logowidth}
 \setlength\logowidth{\headerheight*\ratio{236px}{661px}}
 \setlength\logowidth{\headerheight}
@@ -81,8 +81,8 @@
 \setbeamercolor{headline}{fg=white}
 % large, Large, LARGE, huge, Huge, veryHuge, VeryHuge, VERYHuge
 \setbeamerfont{title in headline}{size=\huge,series=\bfseries}
-\setbeamerfont{author in headline}{size=\LARGE}
-\setbeamerfont{institute in headline}{size=\LARGE}
+\setbeamerfont{author in headline}{size=\Large}
+\setbeamerfont{institute in headline}{size=\Large}
 
 % footline colors and fonts
 \setbeamercolor{footline}{fg=white}
@@ -202,7 +202,7 @@
 }
 
 \title{Changing trends in the prevalence of \emph{H. pylori} infection in Japan
-(1908-2003): a systematic review and meta-regression analysis of 170,000
+(1908-2003): a systematic review and meta-regression analysis of 170,572
 individuals}
 \author{Chaochen Wang\textsuperscript{1}, Takeshi Nishiyama\textsuperscript{1},
 Shogo Kikuchi\textsuperscript{1}, Manami Inoue\textsuperscript{2}, Norie
@@ -305,9 +305,9 @@ National Cancer Center, Tokyo, Japan}
   Prevalence by birth year were extracted from 47 studies (300 data
   points).
 \item
-  Penalized cubic spline was used to model the prevalence as a function
-  of birth year in the framework of generalized additive mixed model
-  (GAMM) implemented in the \texttt{mgcv} package in R.
+  Observations weighted by the inverse of the sum of the within-study
+  variance and the residual between-study variance using the
+  \texttt{meta} package.
 \end{itemize}
 
 \end{block}
@@ -317,6 +317,10 @@ National Cancer Center, Tokyo, Japan}
 \begin{block}{STATISTICAL ANALYSIS (2)}
 
 \begin{itemize}
+\item
+  Penalized cubic spline was used to model the prevalence as a function
+  of birth year in the framework of generalized additive mixed model
+  (GAMM) implemented in the \texttt{mgcv} package in R.
 \item
   Pre-specified explanatory variables included in the meta-regression
   were as follows:\\
@@ -328,10 +332,6 @@ National Cancer Center, Tokyo, Japan}
   data collection period (prior to the year 2000, or later than 2000),
   with \textbf{study ID as a random effect} and \textbf{other variables
   as fixed effects}.
-\item
-  Observations weighted by the inverse of the sum of the within-study
-  variance and the residual between-study variance using the
-  \texttt{meta} package.
 \end{itemize}
 
 \end{block}
@@ -348,8 +348,9 @@ National Cancer Center, Tokyo, Japan}
   \href{http://rpubs.com/winterwang/riskofbias}{\textbf{here}}\footnote{http://rpubs.com/winterwang/riskofbias}
 \end{itemize}
 
-{\centering\includegraphics[]{images/main.png}
-\par}
+\center
+\caption{Figure 2: Multivariable adjusted prevalence of \textit{H. pylori} by birth year}
+\includegraphics[width=1200pt]{images/Figure2Rev.png}
 
 \begin{table}[]
 \centering
