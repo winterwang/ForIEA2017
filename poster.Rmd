@@ -110,40 +110,42 @@ knitr::opts_chunk$set(fig.width = 16, fig.height = 4)
 
 
 
+
 \begin{table}[]
-\centering
 \captionof{Table 1. Estimated prevalence of \textit{H. pylori} infection by birth year}
-\label{my-label}
+\small
+\centering
+%\caption{My caption}
+%\label{my-label}
 \begin{tabular}{@{}cccc@{}}
 \toprule
-Birth Year & Prevalence & 95\% CI low & 95\% CI high \\ \midrule
-1908 & 0.574 & 0.520 & 0.626 \\
-1909 & 0.580 & 0.530 & 0.628 \\
-1910 & 0.586 & 0.540 & 0.631 \\
-1911 & 0.592 & 0.549 & 0.633 \\
-1912 & 0.597 & 0.559 & 0.635 \\
-\dots & \dots & \dots & \dots \\
-1925 & 0.650 & 0.634 & 0.667 \\
-1926 & 0.651 & 0.635 & 0.667 \\
-\rowcolor[HTML]{F8FF00} 
-1927 & 0.652 & 0.636 & 0.666 \\
-1928 & 0.651 & 0.637 & 0.665 \\
-1929 & 0.651 & 0.637 & 0.664 \\
-\dots & \dots & \dots & \dots \\
-\rowcolor[HTML]{F8FF00} 
-1996 & 0.080 & 0.064 & 0.100 \\
-1997 & 0.075 & 0.059 & 0.095 \\
-1998 & 0.070 & 0.054 & 0.091 \\
-\dots & \dots & \dots & \dots \\
-2002 & 0.053 & 0.036 & 0.076 \\
-2003 & 0.049 & 0.032 & 0.074 \\ \bottomrule
+\textbf{Birth year} & \textbf{Prevalence} & \textbf{95\% Low} & \textbf{95\% High} \\ \midrule
+1908                & 0.597               & 0.543             & 0.649              \\
+1909                & 0.603               & 0.553             & 0.651              \\
+\cdots              & \cdots              & \cdots            & \cdots             \\
+1925                & 0.674               & 0.657             & 0.690               \\
+1926                & 0.675               & 0.659             & 0.690               \\
+\rowcolor[HTML]{FFCB2F} 
+1927                & 0.675               & 0.660              & 0.690               \\
+1928                & 0.675               & 0.660              & 0.688              \\
+\cdots              & \cdots              & \cdots            & \cdots             \\
+1950                & 0.582               & 0.574             & 0.590               \\
+\cdots              & \cdots              & \cdots            & \cdots             \\
+1990                & 0.138               & 0.121             & 0.157              \\
+\cdots              & \cdots              & \cdots            & \cdots             \\
+1996                & 0.087               & 0.070              & 0.108              \\
+1997                & 0.081               & 0.064             & 0.102              \\
+\rowcolor[HTML]{FFC702} 
+1998                & 0.076               & 0.058             & 0.098              \\
+\cdots              & \cdots              & \cdots            & \cdots             \\
+2002                & 0.057               & 0.039             & 0.082              \\
+2003                & 0.053               & 0.035             & 0.078              \\ \bottomrule
 \end{tabular}
 \end{table}
 
-
 # CONCLUSION
 
-- Prevalence of _H. pylori_ infection exhibits **a birth cohort effect** in Japan, with prevalence decreasing steadily in individuals born in successive years, **from 55.6% in 1950 to 12.8% in 1990**.  
+- Prevalence of _H. pylori_ infection exhibits **a birth cohort effect** in Japan, with prevalence decreasing steadily in individuals born in successive years, **from 58.2% in 1950 to 13.8% in 1990**.  
 
 - Given the fact that the birth-cohort pattern of _H. pylori_ shapes the trends of gastric cancer over time, our findings help to inform screening efforts aimed at prevention and early detection of gastric cancer in Japan.
 
@@ -159,8 +161,9 @@ Birth Year & Prevalence & 95\% CI low & 95\% CI high \\ \midrule
 
 -->
 
-# COI Declaration: None
+# COI Declaration:
 
+The author has no conflict of interest with any corporate organizations relating to this presentation.
 
 
 <!--\vskip4.4cm-->
