@@ -154,7 +154,7 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 # COI Declaration:
 
-The authors havs no conflict of interest with any corporate organizations relating to this presentation.
+The authors have no conflict of interest with any corporate organizations relating to this presentation.
 
 
 <!--\vskip4.4cm-->

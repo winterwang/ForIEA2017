@@ -164,7 +164,7 @@ knitr::opts_chunk$set(fig.width = 16, fig.height = 4)
 
 # COI Declaration:
 
-The authors havs no conflict of interest with any corporate organizations relating to this presentation.
+The authors have no conflict of interest with any corporate organizations relating to this presentation.
 
 
 <!--\vskip4.4cm-->
