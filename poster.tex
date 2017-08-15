@@ -11,7 +11,7 @@
 ]{beamer}
 
 \usepackage[size=custom,width=100,height=100
-    ,width=90,height=146.5,scale=1.2
+    ,width=90,height=155,scale=1.2
 ]{tex/beamerposter}
 
 \usepackage[utf8]{inputenc}
@@ -66,7 +66,7 @@
 
 \newbox{\layoutbox}
 \newlength{\headerheight}
-\setlength\headerheight{14cm}
+\setlength\headerheight{19.5cm}
 %\newlength{\logowidth}
 \setlength\logowidth{\headerheight*\ratio{236px}{661px}}
 \setlength\logowidth{\headerheight}
@@ -80,9 +80,9 @@
 % headline colors and fonts
 \setbeamercolor{headline}{fg=white}
 % large, Large, LARGE, huge, Huge, veryHuge, VeryHuge, VERYHuge
-\setbeamerfont{title in headline}{size=\huge,series=\bfseries}
-\setbeamerfont{author in headline}{size=\Large}
-\setbeamerfont{institute in headline}{size=\Large}
+\setbeamerfont{title in headline}{size=\Huge,series=\bfseries}
+\setbeamerfont{author in headline}{size=\huge}
+\setbeamerfont{institute in headline}{size=\LARGE}
 
 % footline colors and fonts
 \setbeamercolor{footline}{fg=white}
@@ -208,10 +208,10 @@ individuals}
 Shogo Kikuchi\textsuperscript{1}, Manami Inoue\textsuperscript{2}, Norie
 Sawada\textsuperscript{2}, Shoichiro Tsugane\textsuperscript{2},
 Yingsong Lin\textsuperscript{1}}
-\institute{1 Department of Public Health, Aichi Medical University, Nagakute,
+\institute{1. Department of Public Health, Aichi Medical University, Nagakute,
 Aichi, Japan;\\
-2 Epidemiology and Prevention Group, Center for Public Health Sciences,
-National Cancer Center, Tokyo, Japan}
+2. Division of Cohort Consortium Research, Center for Public Health
+Sciences, National Cancer Center, Tokyo, Japan}
 
 
 \begin{document}
@@ -227,15 +227,16 @@ National Cancer Center, Tokyo, Japan}
 
 \begin{itemize}
 \item
-  Gastric cancer burden remains high in Japan, approximately 50,000
-  deaths/year in Japan (2nd leading cause of cancer deaths).
+  Gastric cancer burden remains high in Japan, with approximately 50,000
+  deaths/year (2nd leading cause of cancer deaths).
 \item
   Evidence supports a central role for \emph{H. pylori} in the
   development of upper-gastrointestinal diseases, including peptic ulcer
   and noncardia gastric cancer.
 \item
   Studies have suggested that the prevalence of \emph{H. pylori}
-  infection increases with age, while the whole picture remains obscure.
+  infection increases with age; however, this phenomenon is presumably
+  due to a birth-cohort effect.
 \item
   We systematically reviewed the existing literature that presented
   estimates of the prevalence of \emph{H. pylori} infection in the
@@ -262,7 +263,7 @@ National Cancer Center, Tokyo, Japan}
 \begin{itemize}
 \item
   The PRISMA statement for preferred reporting of systematic reviews and
-  meta-analyses was used as a guide to conduct this study. (Fig.1.
+  meta-analyses was used as a guide to conduct this study. (Fig 1.
   Flowchart of Study Selection)
 \item
   \textbf{PubMed: } (\enquote{Helicobacter}{[}Mesh{]} OR
@@ -290,7 +291,7 @@ National Cancer Center, Tokyo, Japan}
 \center
 \includegraphics[width=890pt]{images/Figure_1.png}
 
-\caption{Figure 1: PRISMA Flowchart of Study Selection}
+\caption{Figure 1. PRISMA Flowchart of Study Selection}
 
 \end{block}
 
@@ -302,12 +303,12 @@ National Cancer Center, Tokyo, Japan}
   birth year can be found
   \href{https://winterwang.github.io/For_Inoue_pylori/}{\textbf{here}}\footnote{https://winterwang.github.io/For\_Inoue\_pylori/}.
 \item
-  Prevalence by birth year were extracted from 47 studies (300 data
+  Prevalence by birth year was extracted from 47 studies (300 data
   points).
 \item
-  Observations weighted by the inverse of the sum of the within-study
-  variance and the residual between-study variance using the
-  \texttt{meta} package.
+  Observations were weighted by the inverse of the sum of the
+  within-study variance and the residual between-study variance using
+  the \texttt{meta} package.
 \end{itemize}
 
 \end{block}
@@ -326,12 +327,12 @@ National Cancer Center, Tokyo, Japan}
   were as follows:\\
   Study ID, birth year, population source (community-based or
   clinical-based), diagnostic testing (serological test, or others;
-  others: urinary assays, salivary assays, stool antigen tests, and
-  gastric biopsy), types of ELISA kits for measuring \emph{H. pylori}
-  positivity (antigen derived from domestic or foreign strains), and
-  data collection period (prior to the year 2000, or later than 2000),
-  with \textbf{study ID as a random effect} and \textbf{other variables
-  as fixed effects}.
+  others: urinary assays, salivary assays, stool antigen tests,
+  \textsuperscript{13}C-urea breath test, and gastric biopsy), types of
+  ELISA kits for measuring \emph{H. pylori} positivity (antigen derived
+  from domestic or foreign strains), and data collection period (prior
+  to the year 2000, or later than 2000), with \textbf{study ID as a
+  random effect} and \textbf{other variables as fixed effects}.
 \end{itemize}
 
 \end{block}
@@ -342,10 +343,10 @@ National Cancer Center, Tokyo, Japan}
 \item
   Details/characteristics of the studies included in the current
   meta-regression analysis are available
-  \href{http://rpubs.com/winterwang/288338}{\textbf{online}}\footnote{http://rpubs.com/winterwang/288338}
+  \href{http://rpubs.com/winterwang/288338}{\textbf{online}}\footnote{http://rpubs.com/winterwang/288338}.
 \item
   Summary of the results of risk of bias diagnosis is available
-  \href{http://rpubs.com/winterwang/riskofbias}{\textbf{here}}\footnote{http://rpubs.com/winterwang/riskofbias}
+  \href{http://rpubs.com/winterwang/riskofbias}{\textbf{here}}\footnote{http://rpubs.com/winterwang/riskofbias}.
 \end{itemize}
 
 \center
@@ -363,22 +364,23 @@ National Cancer Center, Tokyo, Japan}
 \textbf{Birth year} & \textbf{Prevalence} & \textbf{95\% Low} & \textbf{95\% High} \\ \midrule
 1908                & 0.597               & 0.543             & 0.649              \\
 1909                & 0.603               & 0.553             & 0.651              \\
-\cdots              & \cdots              & \cdots            & \cdots             \\
+1910                  & 0.609               & 0.563             & 0.654  \\
+...                 & ...              & ...            & ...             \\
 1925                & 0.674               & 0.657             & 0.690               \\
 1926                & 0.675               & 0.659             & 0.690               \\
 \rowcolor[HTML]{FFCB2F} 
 1927                & 0.675               & 0.660              & 0.690               \\
 1928                & 0.675               & 0.660              & 0.688              \\
-\cdots              & \cdots              & \cdots            & \cdots             \\
+...              & ...              & ...            & ...             \\
 1950                & 0.582               & 0.574             & 0.590               \\
-\cdots              & \cdots              & \cdots            & \cdots             \\
+...              & ...              & ...            & ...             \\
 1990                & 0.138               & 0.121             & 0.157              \\
-\cdots              & \cdots              & \cdots            & \cdots             \\
+...              & ...              & ...            & ...             \\
 1996                & 0.087               & 0.070              & 0.108              \\
 1997                & 0.081               & 0.064             & 0.102              \\
 \rowcolor[HTML]{FFC702} 
 1998                & 0.076               & 0.058             & 0.098              \\
-\cdots              & \cdots              & \cdots            & \cdots             \\
+...              & ...              & ...            & ...             \\
 2002                & 0.057               & 0.039             & 0.082              \\
 2003                & 0.053               & 0.035             & 0.078              \\ \bottomrule
 \end{tabular}
@@ -405,8 +407,8 @@ National Cancer Center, Tokyo, Japan}
 
 \begin{block}{COI Declaration:}
 
-The author has no conflict of interest with any corporate organizations
-relating to this presentation.
+The authors have no conflict of interest with any corporate
+organizations relating to this presentation.
 
 \end{block}
 
