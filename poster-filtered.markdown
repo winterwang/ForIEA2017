@@ -23,6 +23,13 @@ knit: (function(input, encoding, make = TRUE) { source('tex/makefile-renderer.R'
 
 
 
+```
+## Warning: package 'ggplot2' was built under R version 3.4.2
+```
+
+```
+## Warning: package 'knitr' was built under R version 3.4.2
+```
 
 [columns=2]
 
